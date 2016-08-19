@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="5c758ba1-efdf-4356-bce9-35067aae199f" name="UMLClassDiagram1" linkedPackageId="fe0290b5-70a8-4aea-9f9a-b1ce9242d88a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="13eabb5f-640e-46c5-b593-2a8c0d9c35ce">
+      <profileInstance Id="572aa18d-7bce-4ad5-b0e4-4ba218666cf4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="321a9421-c644-4329-a576-832b7f5c6789">
+      <profileInstance Id="fb850204-4933-4a33-b8d1-5ad7ca0550ec" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9a892b0b-cd70-422c-99dc-526f2ba37a8c" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2c0e229d-6c3c-44b2-900e-5652fb65063c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9de8ad6a-0a3c-478f-9f15-da5cb1ea0fe2" name="Class2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d8ded49d-0bea-4629-a31f-371869c09926" />
+        <generalsInternal>
+          <generalization Id="5ab7dc3d-f356-4759-a7e5-245405c7ad8c" isSubstitutable="false">
+            <classMoniker Id="9a892b0b-cd70-422c-99dc-526f2ba37a8c" LastKnownName="Class1" />
+            <elementDefinition Id="499f1adf-ed2b-46a1-9b52-eae326561244" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="fe0290b5-70a8-4aea-9f9a-b1ce9242d88a" name="ModelingProject1">
+    <elementDefinition Id="2c4cbcb0-be3e-4741-a0fb-e2f2bb486787" />
+  </package>
+</logicalClassDesignerModel>
